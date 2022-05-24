@@ -1,0 +1,28 @@
+{
+    "name": "sjsolutionz/categories",
+    "description": "this is an category Package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Categories\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asad921",
+            "email": "officiallasad.ali@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Categories\\CategoryServiceProvider"
+            ],
+            "aliases": {
+                "Category":  "Categories\\Facades\\Cat"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
