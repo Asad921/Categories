@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Sjsolutionz\\Categories\\' => array($baseDir . '/src'),
+    'Categories\\' => array($baseDir . '/src'),
 );
